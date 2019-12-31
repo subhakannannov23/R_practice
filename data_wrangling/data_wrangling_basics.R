@@ -19,7 +19,7 @@ c(0,v) # append single element to begining of vector
 c(v,7) # append single elemnt to end of vector
 
 mix <- c(v,"CharValue") # internal type conversion
-typeof(mix)
+typeof(mix) # show type of vector
 
 poem <- c("marry", "little", "lamb")
 poem <- append(poem, 
